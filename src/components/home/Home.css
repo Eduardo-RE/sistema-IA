@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-header {
+  padding: 10px;
+}
+
+.question {
+  padding: 10px;
+}
+
+.button-container {
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    color: #0a559b;
+    font-size: medium;
+}
+
+.buttons:hover {
+    background-color: #0a559b;
+    color: #fff;
+}
